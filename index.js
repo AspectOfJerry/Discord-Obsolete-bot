@@ -11,6 +11,7 @@ const client = new DiscordJS.Client({
 client.on('ready', () => {
     console.log("Jerry Bot [OUTDATED] is online")
     setTimeout(() => {client.user.setStatus('dnd')}, 5000);
+    console.log("Updating the bot's status to 'dnd'.")
 })
 
 client.login(process.env.DISCORD_BOT_TOKEN)
