@@ -1,3 +1,2 @@
-npm install
-node .
+npm run main
 pause
