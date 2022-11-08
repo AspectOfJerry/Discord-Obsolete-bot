@@ -9,7 +9,7 @@ const client = new DiscordJS.Client({
 })
 
 client.on('ready', () => {
-    console.log("Jerry Bot [OUTDATED] is online")
+    console.log('"JerryBot [Obsolete]#0182" is now online.')
     setTimeout(() => {client.user.setStatus('dnd')}, 5000);
     console.log("Updating the bot's status to 'dnd'.")
 })
