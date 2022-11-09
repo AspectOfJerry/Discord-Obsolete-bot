@@ -1,3 +1,2 @@
-pause
 npm run main
-pause
+@pause
